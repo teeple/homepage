@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'NanumGothic';
+
+    font-style: normal;
+    font-weight: normal;
+    src: local('NanumGothic'),  local('³ª´®°íµñ'),   url('http://kopress.kr/NanumGothic.woff') format('woff');
+
+}

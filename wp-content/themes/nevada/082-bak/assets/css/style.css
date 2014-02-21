@@ -1,0 +1,98 @@
+/**
+ * Copyright (c) 2012 Cheon, YoungMin (http://082net.com/)
+ * All rights reserved.
+ *
+ **/
+
+/* 메뉴 글자 크기 Fix: 해당 글꼴이 없는 컴에서 IE/non-IE 인식차이 나눔고딕으로 통일 */
+#navigation ul li a, #navigation ul.sub-menu li a,
+#sidebar .widget_nav_menu {
+  font-family: 'NanumGothic', 'Malgun Gothic', Dottum, Sans-serif !important;
+}
+
+/* #navigation ul li.sfHover ul {
+display: block !important;
+visibility: visible !important;
+} */
+
+/* @group BreadCrumb */
+#sub-tabs {
+position: absolute;
+z-index: 22;
+/* top: 0; */
+right: 92px;
+text-transform: uppercase;
+font-family: 'NanumGothic', 'Malgun Gothic', Dottum, Arial, Tahoma, Sans-serif;
+}
+#sub-tabs li {
+font-size:0.6em;
+}
+#sub-tabs li {
+display:inline;
+margin: 0;
+padding: 0;
+}
+#sub-tabs ul {
+margin-bottom:0;
+margin-top: 15px;
+}
+span.subbreak {
+padding:0 5px;
+}
+/* @end BreadCrumb */
+
+
+
+/* @group Widget menu */
+/* IE7 이상만 지원하도록 합니다. */
+
+#sidebar .widget_nav_menu li a {
+/* text-transform: uppercase; */
+}
+
+#sidebar .widget_nav_menu li.current-menu-item > a {
+/* color: #0090a5; */
+font-weight: bold;
+color: #1A88C1;
+}
+
+#sidebar .widget_nav_menu li.current-menu-parent {
+border-top: 2px solid #D9D9D9;/* #1A88C1; */
+border-bottom: 1px solid #D9D9D9;
+/* background: transparent;
+padding-left: 0; */
+background-position: left 8px;
+padding-top: 3px;
+padding-bottom: 2px;
+}
+
+#sidebar .widget_nav_menu li.current-menu-parent > a {
+/* color: #0d3594; */
+font-weight: bold;
+/* display: block;
+padding-bottom: 1px;
+margin-right: 14px;
+background: url('../../../images/icons/divider1.png') repeat-x left 18px; */
+}
+
+#sidebar .widget_nav_menu ul.sub-menu {
+}
+
+#sidebar .widget_nav_menu ul.sub-menu li a:hover {
+}
+
+#sidebar .widget_nav_menu ul.sub-menu li a {
+
+}
+
+/* #sidebar .widget_nav_menu li.current-menu-parent ul.sub-menu li a {
+background: transparent;
+font-weight: normal;
+} */
+
+#sidebar .widget_nav_menu ul.sub-menu li a:hover,
+#sidebar .widget_nav_menu ul.sub-menu li.current-menu-item a,
+#sidebar .widget_nav_menu ul.sub-menu li.current_page_item a {
+}
+
+/* @end Widget menu */

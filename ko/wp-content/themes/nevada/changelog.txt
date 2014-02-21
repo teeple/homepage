@@ -1,0 +1,238 @@
+Version 1.5.1
+-- fixed an Issue with Page Creator at WP3.5
+-- update to revolution slider
+
+Version 1.5
+-- added woocommerce support
+-- added custom font manager
+-- update to revolution slider 2.0.5
+-- fixed an issue with CTA Custom Color
+-- fixed an issue with author bio and qtranslate
+-- fixed an issue with slider and tablemanager with Windows IIS
+
+-- changed files
+-- functions.php
+-- header.php
+-- template-home.php
+-- template-part-slider.php
+-- template-part-teaser.php
+-- loop-pagecreator.php
+-- loop-single.php
+-- pagecreator-functions.php
+-- archive-portfolio.php
+-- css/colors/custom.css.php
+-- template-part-teaser.php
+-- lambda/index.php
+-- lambda/lambda.admin.functions.php
+-- lambda/classes/class.admin.php
+-- lambda/functions/functions.load.php
+-- lambda/functions/functions.php
+-- lambda/functions/admin/fontmanager.php
+-- lambda/functions/admin/upload.php
+-- functions/theme-shortcodes.php
+
+-- new files
+-- custom.font.php
+
+Version 1.4.2
+-- update to child theme
+-- update to revolution slider
+-- added alt tags to service icons
+-- added aditional image cropping for blog posts
+-- added auto play for testimonials
+-- added pagination to blog box page creator
+-- added portfolio widget
+-- fixed an issue with theme updater
+-- fixed an issue with special character inside form creator
+-- fixed an issue with testimonial carousel
+-- fixed an issue with defaukt sidebar management
+-- fixed an issue with portfolio filter
+-- fixed an issue with QTranslate on Home Template
+
+-- changed files
+-- archive-portfolio.php
+-- header.php
+-- loop.php
+-- template-home.php
+-- style.css
+-- style.php
+-- sidebar.php
+-- sidebar-page.php
+-- sidebar-second.php
+-- post-formats/standard.php
+-- post-formats/gallery.php
+-- functions/pagecreator-functions.php
+-- functions/theme-form-functions.ph
+-- lambda/metaboxes/lambda.metapanel.php
+-- lambda/metaboxes/lambda.meta.spec.php
+-- lambda/assets/optionsdata/theme-options.xml
+-- lambda/assets/css/lambda.ui.css
+
+folders to update
+-- lambda/tinymce/
+-- lambda/themeupdater/
+
+-- new files 
+-- functions/theme-woocommerce-support.php
+-- lambda/widgets/lambda_portfolio.php
+
+24.10.2012
+Version 1.4.1
+
+-- fixed an issue with multisite installations
+-- fixed an issue with blog meta data displaying
+-- fixed an issue with theme updater
+
+-- changed files
+-- header.php
+-- lambda/tinymce/lambda.table.popup.php
+-- lambda/tinymce/lambda.slider.popup.php
+-- lambda/slidermanager/index.php
+-- lambda/tablemanager/index.php
+-- lambda/metaboxes/lambda.metapanel.php
+-- lambda/metaboxes/lambda.slider.php
+-- lambda/functions/admin/select-backgroundslider.php
+-- javascripts/slider.init.php
+-- functions/theme-slider-shortcodes.php
+-- functions/theme-shortcodes.php
+-- functions/theme-functions.php
+-- functions/ajax-request.php
+-- functions/theme-activation-hook.php
+-- template-part-slider.php
+
+
+23.10.2012
+Version 1.4
+
+-- update to revolution slider
+-- added WPML Support with official certification from WPML.org
+-- added portfolio filter in backend
+
+-- fixed an issue with full width carousel
+-- fixed an issue with CTA Button Generator
+-- fixed an issue with QTranslate in service toggles
+-- fixed an issue with footer headline box displaying
+-- fixed an issue with sidebar displaying in categories
+-- fixed an issue with menu coloring
+-- removed captcha code from email
+
+-- changed files
+-- template-home.php
+-- lambda/tinymce/lambda.cta.popup.php
+-- lambda/lambda.metabox.php
+-- functions/theme-layout-functions.php
+-- functions/theme-mailer.php
+-- functions/theme-portfolio-init.php
+-- functions.php
+-- styles.css
+-- complete revslider folder
+
+-- new files
+-- wpml-config.xml
+
+14.10.2012
+Version 1.3
+
+-- added prettyphoto lightbox to standard WP Gallery
+-- added additional sidebar management to Page Creator, from now you are able to widgetize pages
+-- added Theme Auto Updater
+-- added responsive options to page creator - hide and show boxes on special resolutions
+-- added Client Box to Page Creator
+-- minor css changes
+-- fixed footer styling option
+-- update to child theme
+
+-- changed files
+-- loop-contactform.php
+-- style.css
+-- layout.css
+-- style.php
+-- responsive.css
+-- functions.php
+-- header.php
+-- archive-portfolio.php
+-- loop-contactform.php
+-- functions/theme-functions.php
+-- functions/theme-layout-functions.php
+-- functions/pagecreator-functions.php
+-- functions/theme-activation-hook.php
+-- loop-pagecreator.php
+-- lambda/themeupdater/index.php
+-- lambda/metaboxes/lambda.slider.php
+-- lambda/metaboxes/lambda.metapanel.php
+-- lambda/assets/css/bootstrap.css
+-- lambda/assets/css/lambda.ui.css
+
+-- new files
+--- lambda/themeupdater/class-envato-api.php
+--- lambda/themeupdater/class-envato-backup.php
+--- lambda/themeupdater/class-wp-upgrader.php
+--- lambda/themeupdater/envato.php
+--- lambda/assets/images/responsive.png
+--- lambda/functions/admin/footer_background_pattern.php
+--- lambda/functions/admin/footer_background_texture.php
+
+-- new folders
+--- images/footer
+
+-- removed files
+-- functions/theme-update.php
+
+03.10.2012
+Version 1.2.1
+- updated child theme
+- fixed an issue with menu custom colors
+
+-- changed files
+-- lambda/assets/optionsdata/theme-options.xml
+-- css/colors/custom.css.php
+
+-- Please reload the XML File after updating the Theme!
+-- Go to Theme Options -> Manage Presets (upper right corner) and hit "Reload XML"
+
+
+02.10.2012
+Version 1.2
+- fixed an issue where pagecreator was adding empty boxes after each save
+- minor CSS changes
+- added qtranslate Support
+- client logos at startpage are now randomized
+- updated documentation
+
+- changed files:
+-- style.css
+-- template-home.php
+-- functions.php
+-- template-faq.php
+-- template-service.php
+-- template-team.php
+--- functions/theme-form-functions.php
+--- functions/pagecreator-functions.php
+--- lambda/metaboxes/lambda.metapanel.php
+--- lambda/metaboxes/lambda.slider.php
+--- lambda/widgets/lambda_recent_post.php
+--- lambda/assets/js/lambda.pttiny.js
+--- lambda/assets/js/lambda.meta.js
+--- lambda/assets/css/lambda.ui.css
+--- lambda/assets/css/bootstrap.css
+--- lambda/lambda.admin.functions.php
+
+- new files:
+--- lambda.qtranslate.php
+--- lambda.parsecontent.php
+--- languages/en_US.mo
+--- languages/en_US.po
+--- languages/xx_XX.pot
+
+28.09.2012
+Version 1.1
+- added "CTA" Shortcode
+- added "hide page" function for supersized Slider
+- added sample "Child Theme"
+- added new button colors
+- fixed an issue with headline displaying
+- fixed a minor Issue in our Slidermanager
+
+25.09.2012
+
+- initial Version 1.0
